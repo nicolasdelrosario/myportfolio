@@ -173,11 +173,14 @@ img {
 /* Breakpoints */
 /* For largen devices */
 @media screen and (max-width: 992px) { 
+  .container {
+    margin: 0 var(--mb-1-5);
+  }
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-   
+
 }
 
 @media screen and (max-width: 576px) { 
@@ -185,4 +188,7 @@ img {
 
 /* For small devices */
 @media screen and (max-width: 350px) { 
+  .container {
+    margin: 0 var(--mb-1);
+  }
 }
