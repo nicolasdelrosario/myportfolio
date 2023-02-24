@@ -5,7 +5,7 @@ const Data = () => {
     <div className='home__data'>
       <h1 className='home__title'>Nicolas Del Rosario</h1>
       <h3 className='home__subtitle'>Frontend Developer</h3>
-      <p className='home__description'>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+      <p className='home__description'>I bring my creative touch to every line of code to make your website stand out from the rest...</p>
 
       <a href='#contact' className='button button--flex'>
         Say Hello
