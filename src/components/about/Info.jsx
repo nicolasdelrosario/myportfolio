@@ -9,7 +9,7 @@ const Info = () => {
       </div>
 
       <div className='about__box'>
-        <i class="uil uil-brain about__icon"></i>
+        <i class='bx bx-brain about__icon'></i>
         <h3 className='about__title'>Critical <br/> thinking</h3>
       </div>
 
