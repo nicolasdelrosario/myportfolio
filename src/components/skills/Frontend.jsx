@@ -8,37 +8,32 @@ const Frontend = () => {
       <div className='skills__box'>
         <div className='skills__group'>
           <div className='skills__data'>
-          <i class='bx bxs-badge-check'></i>
+          <i className='bx bxs-badge-check'></i>
             <h3 className='skills__name'>HTML</h3>
           </div>
 
           <div className='skills__data'>
-            <i class='bx bxs-badge-check'></i>
+            <i className='bx bxs-badge-check'></i>
             <h3 className='skills__name'>Bootstrap</h3>
           </div>
 
           <div className='skills__data'>
-            <i class='bx bxs-badge-check'></i>
+            <i className='bx bxs-badge-check'></i>
             <h3 className='skills__name'>CSS</h3>
           </div>
 
           <div className='skills__data'>
-            <i class='bx bxs-badge-check'></i>
+            <i className='bx bxs-badge-check'></i>
             <h3 className='skills__name'>SCSS</h3>
           </div>
 
           <div className='skills__data'>
-            <i class='bx bxs-badge-check'></i>
-            <h3 className='skills__name'>Git</h3>
-          </div>
-
-          <div className='skills__data'>
-            <i class='bx bxs-badge-check'></i>
+            <i className='bx bxs-badge-check'></i>
             <h3 className='skills__name'>JavaScript</h3>
           </div>
 
           <div className='skills__data'>
-            <i class='bx bxs-badge-check'></i>
+            <i className='bx bxs-badge-check'></i>
             <h3 className='skills__name'>React</h3>
           </div>
         </div>
