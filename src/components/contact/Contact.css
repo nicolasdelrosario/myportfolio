@@ -1,0 +1,59 @@
+.contact__container {
+  grid-template-columns: repeat(2, max-content);
+  gap: 5rem;
+  justify-content: center;
+}
+
+.contact__content {
+  grid-template-columns: repeat(3, max-content);
+  gap: 5rem;
+  justify-content: center;
+}
+
+.contact__content:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.contact__box {
+  text-align: center;
+  align-self: center;
+}
+
+.contact__icon {
+  font-size: 2rem;
+  color: var(--title-color);
+  transition: all .3s;
+}
+
+.contact__icon-title {
+  font-size: var(--normal-font-size);
+  margin-top: var(--mb-0-5);
+}
+
+/* Breakpoints */
+/* For largen devices */
+@media screen and (max-width: 992px) { 
+  .contact__content {
+    gap: 3rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .contact__container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 576px) { 
+  .contact__icon {
+    font-size: 1.6rem;
+  }
+
+  .contact__icon-title {
+    font-size: var(--smaller-font-size);
+
+  }
+}
