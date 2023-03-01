@@ -16,7 +16,11 @@
 }
 
 .footer__logo {
-  font-size: 2rem;
+  font-size: 1.7rem;
+}
+
+.footer__description {
+  font-size: var(--normal-font-size)
 }
 
 
@@ -24,6 +28,10 @@
 @media screen and (max-width: 992px) {
   .footer__container {
     margin: 0 var(--mb-1-5);
+  }
+
+  .footer__logo {
+    font-size: 1.3rem;
   }
 }
 
@@ -33,13 +41,12 @@
     text-align: center;
   }
 
-
-  .footer__logo {
-    font-size: 1.6rem;
-  }
-
   .footer__content:last-child {
     text-align: center;
+    padding-bottom: 1rem;
   }
-  
+
+  .footer__description {
+    font-size: var(--smaller-font-size);
+  }
 }

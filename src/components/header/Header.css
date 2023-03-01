@@ -5,6 +5,7 @@
   top: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .nav {
@@ -115,6 +116,10 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) { 
+  .header {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
   .nav__menu {
     padding: 2rem 0.25rem 4rem;
   }

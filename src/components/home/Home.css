@@ -81,7 +81,13 @@
 .home__scroll-arrow {
   font-size: 1.25rem;
   color: var(--title-color);
+  transition: 0.4s;
 }
+
+.home__scroll-button:hover .home__scroll-arrow {
+  transform: translateY(0.25rem);
+}
+
 
 /* Animations */
 @keyframes profile__animate {

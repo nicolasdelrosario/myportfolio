@@ -13,7 +13,7 @@ const WorkItems = ({ item }) => {
       <h3 className='work__title'>{item.title}</h3>
 
       <span className='work__button' onClick={() => toggleTab(1)}>
-        More Information
+        More Details
         <i className='bx bx-right-arrow-alt work__button-icon'></i>
       </span>
 
@@ -32,6 +32,11 @@ const WorkItems = ({ item }) => {
               </li>
             ))}
           </ul>
+
+          <a href={item.github} className='work__button' target='_blank' rel='noreferrer'>
+            Github
+            <i className='bx bx-right-arrow-alt work__button-icon'></i>
+          </a>
         </div>
       </div>
 
